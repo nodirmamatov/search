@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Index</title>
+        <meta charset="UTF-8">
+        <title>Search</title>
+
+        <!-- Link external CSS-->
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Welcome to My Web Site</h1>
+
+        <!-- Top-right navigation -->
+        <nav class="top-links">
+            <a href="google_image_search.html">Google Image Search</a>
+            <a href="google_advanced_search.html">Google Advanced Search</a>
+        </nav>
+
+        <!-- Centered search area -->
+        <main class="center">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </main>
     </body>
 </html>
