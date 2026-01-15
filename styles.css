@@ -57,3 +57,8 @@ form {
     background-color: #f8f9fa;
     cursor: pointer;
 }
+
+.buttons input:hover {
+  background-color: #f1f3f4;
+  cursor: pointer;
+}
